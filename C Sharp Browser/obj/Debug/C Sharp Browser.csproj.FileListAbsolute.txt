@@ -1,0 +1,12 @@
+c:\users\administrator\documents\visual studio 2015\Projects\C Sharp Browser\C Sharp Browser\bin\Debug\C Sharp Browser.exe.config
+c:\users\administrator\documents\visual studio 2015\Projects\C Sharp Browser\C Sharp Browser\bin\Debug\C Sharp Browser.exe
+c:\users\administrator\documents\visual studio 2015\Projects\C Sharp Browser\C Sharp Browser\bin\Debug\C Sharp Browser.pdb
+c:\users\administrator\documents\visual studio 2015\Projects\C Sharp Browser\C Sharp Browser\bin\Debug\cypher theme.dll
+c:\users\administrator\documents\visual studio 2015\Projects\C Sharp Browser\C Sharp Browser\bin\Debug\Effectual Theme.dll
+c:\users\administrator\documents\visual studio 2015\Projects\C Sharp Browser\C Sharp Browser\bin\Debug\Fader Theme.dll
+c:\users\administrator\documents\visual studio 2015\Projects\C Sharp Browser\C Sharp Browser\obj\Debug\C_Sharp_Browser.Form1.resources
+c:\users\administrator\documents\visual studio 2015\Projects\C Sharp Browser\C Sharp Browser\obj\Debug\C_Sharp_Browser.Properties.Resources.resources
+c:\users\administrator\documents\visual studio 2015\Projects\C Sharp Browser\C Sharp Browser\obj\Debug\C Sharp Browser.csproj.GenerateResource.Cache
+c:\users\administrator\documents\visual studio 2015\Projects\C Sharp Browser\C Sharp Browser\obj\Debug\C Sharp Browser.exe
+c:\users\administrator\documents\visual studio 2015\Projects\C Sharp Browser\C Sharp Browser\obj\Debug\C Sharp Browser.pdb
+c:\users\administrator\documents\visual studio 2015\Projects\C Sharp Browser\C Sharp Browser\obj\Debug\C Sharp Browser.csprojResolveAssemblyReference.cache
