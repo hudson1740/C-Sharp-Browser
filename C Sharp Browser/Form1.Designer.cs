@@ -33,39 +33,39 @@
             this.faderControlBox1 = new Fader_Theme.FaderControlBox();
             this.faderVerticalTabControl1 = new Fader_Theme.FaderVerticalTabControl();
             this.tabPage1 = new System.Windows.Forms.TabPage();
+            this.button1 = new System.Windows.Forms.Button();
+            this.pictureBox3 = new System.Windows.Forms.PictureBox();
+            this.pictureBox2 = new System.Windows.Forms.PictureBox();
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.faderButton1 = new Fader_Theme.FaderButton();
             this.webBrowser1 = new System.Windows.Forms.WebBrowser();
             this.faderTextBox1 = new Fader_Theme.FaderTextBox();
+            this.tabPage2 = new System.Windows.Forms.TabPage();
+            this.faderTheme2 = new Fader_Theme.FaderTheme();
+            this.faderTextBox2 = new Fader_Theme.FaderTextBox();
+            this.label4 = new System.Windows.Forms.Label();
+            this.listView1 = new System.Windows.Forms.ListView();
+            this.faderButton3 = new Fader_Theme.FaderButton();
+            this.faderButton2 = new Fader_Theme.FaderButton();
+            this.toolStrip1 = new System.Windows.Forms.ToolStrip();
+            this.toolStripTextBox1 = new System.Windows.Forms.ToolStripTextBox();
             this.tabPage3 = new System.Windows.Forms.TabPage();
             this.faderPanel1 = new Fader_Theme.FaderPanel();
             this.label3 = new System.Windows.Forms.Label();
             this.textBox1 = new System.Windows.Forms.TextBox();
             this.label2 = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
-            this.tabPage2 = new System.Windows.Forms.TabPage();
-            this.faderTheme2 = new Fader_Theme.FaderTheme();
-            this.toolStrip1 = new System.Windows.Forms.ToolStrip();
-            this.faderButton2 = new Fader_Theme.FaderButton();
-            this.faderButton3 = new Fader_Theme.FaderButton();
-            this.toolStripTextBox1 = new System.Windows.Forms.ToolStripTextBox();
-            this.listView1 = new System.Windows.Forms.ListView();
-            this.label4 = new System.Windows.Forms.Label();
-            this.pictureBox3 = new System.Windows.Forms.PictureBox();
-            this.pictureBox2 = new System.Windows.Forms.PictureBox();
-            this.pictureBox1 = new System.Windows.Forms.PictureBox();
-            this.button1 = new System.Windows.Forms.Button();
-            this.faderTextBox2 = new Fader_Theme.FaderTextBox();
             this.faderTheme1.SuspendLayout();
             this.faderVerticalTabControl1.SuspendLayout();
             this.tabPage1.SuspendLayout();
-            this.tabPage3.SuspendLayout();
-            this.faderPanel1.SuspendLayout();
-            this.tabPage2.SuspendLayout();
-            this.faderTheme2.SuspendLayout();
-            this.toolStrip1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
+            this.tabPage2.SuspendLayout();
+            this.faderTheme2.SuspendLayout();
+            this.toolStrip1.SuspendLayout();
+            this.tabPage3.SuspendLayout();
+            this.faderPanel1.SuspendLayout();
             this.SuspendLayout();
             // 
             // faderTheme1
@@ -76,6 +76,7 @@
             this.faderTheme1.HeaderAlignment = Fader_Theme.AlignmentStyle.Center;
             this.faderTheme1.Icon = null;
             this.faderTheme1.Location = new System.Drawing.Point(0, 0);
+            this.faderTheme1.MaximumSize = new System.Drawing.Size(1170, 761);
             this.faderTheme1.Name = "faderTheme1";
             this.faderTheme1.ShowHeader = true;
             this.faderTheme1.ShowIcon = true;
@@ -128,6 +129,54 @@
             this.tabPage1.TabIndex = 0;
             this.tabPage1.Text = "Browser";
             // 
+            // button1
+            // 
+            this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button1.ForeColor = System.Drawing.Color.Yellow;
+            this.button1.Location = new System.Drawing.Point(35, 10);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(88, 23);
+            this.button1.TabIndex = 7;
+            this.button1.Text = "Add Bookmark";
+            this.button1.UseVisualStyleBackColor = true;
+            this.button1.Click += new System.EventHandler(this.button1_Click_1);
+            // 
+            // pictureBox3
+            // 
+            this.pictureBox3.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.pictureBox3.Image = global::C_Sharp_Browser.Properties.Resources.imageedit_6_5075381405;
+            this.pictureBox3.Location = new System.Drawing.Point(163, 0);
+            this.pictureBox3.Name = "pictureBox3";
+            this.pictureBox3.Size = new System.Drawing.Size(56, 40);
+            this.pictureBox3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox3.TabIndex = 6;
+            this.pictureBox3.TabStop = false;
+            this.pictureBox3.Click += new System.EventHandler(this.pictureBox3_Click);
+            // 
+            // pictureBox2
+            // 
+            this.pictureBox2.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.pictureBox2.Image = global::C_Sharp_Browser.Properties.Resources.imageedit_3_9787858024;
+            this.pictureBox2.Location = new System.Drawing.Point(990, 5);
+            this.pictureBox2.Name = "pictureBox2";
+            this.pictureBox2.Size = new System.Drawing.Size(35, 31);
+            this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox2.TabIndex = 5;
+            this.pictureBox2.TabStop = false;
+            this.pictureBox2.Click += new System.EventHandler(this.pictureBox2_Click);
+            // 
+            // pictureBox1
+            // 
+            this.pictureBox1.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.pictureBox1.Image = global::C_Sharp_Browser.Properties.Resources.imageedit_1_9972363874;
+            this.pictureBox1.Location = new System.Drawing.Point(937, 6);
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.Size = new System.Drawing.Size(50, 30);
+            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox1.TabIndex = 4;
+            this.pictureBox1.TabStop = false;
+            this.pictureBox1.Click += new System.EventHandler(this.pictureBox1_Click);
+            // 
             // faderButton1
             // 
             this.faderButton1.BackColor = System.Drawing.Color.Transparent;
@@ -166,6 +215,112 @@
             this.faderTextBox1.Text = "Enter URL ";
             this.faderTextBox1.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
             this.faderTextBox1.UseSystemPasswordChar = false;
+            // 
+            // tabPage2
+            // 
+            this.tabPage2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(61)))), ((int)(((byte)(61)))), ((int)(((byte)(61)))));
+            this.tabPage2.Controls.Add(this.faderTheme2);
+            this.tabPage2.Location = new System.Drawing.Point(104, 4);
+            this.tabPage2.Name = "tabPage2";
+            this.tabPage2.Size = new System.Drawing.Size(1034, 666);
+            this.tabPage2.TabIndex = 3;
+            this.tabPage2.Text = "Bookmarks";
+            // 
+            // faderTheme2
+            // 
+            this.faderTheme2.Controls.Add(this.faderTextBox2);
+            this.faderTheme2.Controls.Add(this.label4);
+            this.faderTheme2.Controls.Add(this.listView1);
+            this.faderTheme2.Controls.Add(this.faderButton3);
+            this.faderTheme2.Controls.Add(this.faderButton2);
+            this.faderTheme2.Controls.Add(this.toolStrip1);
+            this.faderTheme2.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.faderTheme2.HeaderAlignment = Fader_Theme.AlignmentStyle.Center;
+            this.faderTheme2.Icon = null;
+            this.faderTheme2.Location = new System.Drawing.Point(0, 0);
+            this.faderTheme2.Name = "faderTheme2";
+            this.faderTheme2.ShowHeader = true;
+            this.faderTheme2.ShowIcon = true;
+            this.faderTheme2.Size = new System.Drawing.Size(1034, 666);
+            this.faderTheme2.TabIndex = 0;
+            this.faderTheme2.Text = "Bookmarks";
+            this.faderTheme2.Click += new System.EventHandler(this.faderTheme2_Click);
+            // 
+            // faderTextBox2
+            // 
+            this.faderTextBox2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(61)))), ((int)(((byte)(61)))), ((int)(((byte)(61)))));
+            this.faderTextBox2.Font = new System.Drawing.Font("Segoe UI", 11F, System.Drawing.FontStyle.Bold);
+            this.faderTextBox2.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(245)))), ((int)(((byte)(245)))), ((int)(((byte)(245)))));
+            this.faderTextBox2.Location = new System.Drawing.Point(461, 96);
+            this.faderTextBox2.MaxLength = 32767;
+            this.faderTextBox2.MultiLine = false;
+            this.faderTextBox2.Name = "faderTextBox2";
+            this.faderTextBox2.ReadOnly = false;
+            this.faderTextBox2.Size = new System.Drawing.Size(129, 30);
+            this.faderTextBox2.TabIndex = 5;
+            this.faderTextBox2.Text = "Load Bookmark";
+            this.faderTextBox2.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
+            this.faderTextBox2.UseSystemPasswordChar = false;
+            this.faderTextBox2.Click += new System.EventHandler(this.faderTextBox2_Click);
+            // 
+            // label4
+            // 
+            this.label4.AutoSize = true;
+            this.label4.Font = new System.Drawing.Font("Bookman Old Style", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label4.ForeColor = System.Drawing.Color.Lime;
+            this.label4.Location = new System.Drawing.Point(68, 67);
+            this.label4.Name = "label4";
+            this.label4.Size = new System.Drawing.Size(307, 19);
+            this.label4.TabIndex = 4;
+            this.label4.Text = "Enter Link You Want To Bookmark:";
+            // 
+            // listView1
+            // 
+            this.listView1.FullRowSelect = true;
+            this.listView1.GridLines = true;
+            this.listView1.Location = new System.Drawing.Point(238, 132);
+            this.listView1.MultiSelect = false;
+            this.listView1.Name = "listView1";
+            this.listView1.Size = new System.Drawing.Size(592, 511);
+            this.listView1.TabIndex = 3;
+            this.listView1.UseCompatibleStateImageBehavior = false;
+            this.listView1.View = System.Windows.Forms.View.List;
+            // 
+            // faderButton3
+            // 
+            this.faderButton3.BackColor = System.Drawing.Color.Transparent;
+            this.faderButton3.Location = new System.Drawing.Point(685, 91);
+            this.faderButton3.Name = "faderButton3";
+            this.faderButton3.Size = new System.Drawing.Size(145, 35);
+            this.faderButton3.TabIndex = 2;
+            this.faderButton3.Text = "Remove Bookmark";
+            this.faderButton3.Click += new System.EventHandler(this.faderButton3_Click);
+            // 
+            // faderButton2
+            // 
+            this.faderButton2.BackColor = System.Drawing.Color.Transparent;
+            this.faderButton2.Location = new System.Drawing.Point(238, 91);
+            this.faderButton2.Name = "faderButton2";
+            this.faderButton2.Size = new System.Drawing.Size(124, 35);
+            this.faderButton2.TabIndex = 1;
+            this.faderButton2.Text = "Add Boomark";
+            this.faderButton2.Click += new System.EventHandler(this.faderButton2_Click);
+            // 
+            // toolStrip1
+            // 
+            this.toolStrip1.Dock = System.Windows.Forms.DockStyle.None;
+            this.toolStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.toolStripTextBox1});
+            this.toolStrip1.Location = new System.Drawing.Point(376, 63);
+            this.toolStrip1.Name = "toolStrip1";
+            this.toolStrip1.Size = new System.Drawing.Size(304, 25);
+            this.toolStrip1.TabIndex = 0;
+            this.toolStrip1.Text = "toolStrip1";
+            // 
+            // toolStripTextBox1
+            // 
+            this.toolStripTextBox1.Name = "toolStripTextBox1";
+            this.toolStripTextBox1.Size = new System.Drawing.Size(290, 25);
             // 
             // tabPage3
             // 
@@ -235,160 +390,6 @@
             this.label1.TabIndex = 0;
             this.label1.Text = "C-Sharp Browser ";
             // 
-            // tabPage2
-            // 
-            this.tabPage2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(61)))), ((int)(((byte)(61)))), ((int)(((byte)(61)))));
-            this.tabPage2.Controls.Add(this.faderTheme2);
-            this.tabPage2.Location = new System.Drawing.Point(104, 4);
-            this.tabPage2.Name = "tabPage2";
-            this.tabPage2.Size = new System.Drawing.Size(1034, 666);
-            this.tabPage2.TabIndex = 3;
-            this.tabPage2.Text = "Bookmarks";
-            // 
-            // faderTheme2
-            // 
-            this.faderTheme2.Controls.Add(this.faderTextBox2);
-            this.faderTheme2.Controls.Add(this.label4);
-            this.faderTheme2.Controls.Add(this.listView1);
-            this.faderTheme2.Controls.Add(this.faderButton3);
-            this.faderTheme2.Controls.Add(this.faderButton2);
-            this.faderTheme2.Controls.Add(this.toolStrip1);
-            this.faderTheme2.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.faderTheme2.HeaderAlignment = Fader_Theme.AlignmentStyle.Center;
-            this.faderTheme2.Icon = null;
-            this.faderTheme2.Location = new System.Drawing.Point(0, 0);
-            this.faderTheme2.Name = "faderTheme2";
-            this.faderTheme2.ShowHeader = true;
-            this.faderTheme2.ShowIcon = true;
-            this.faderTheme2.Size = new System.Drawing.Size(1034, 666);
-            this.faderTheme2.TabIndex = 0;
-            this.faderTheme2.Text = "Bookmarks";
-            this.faderTheme2.Click += new System.EventHandler(this.faderTheme2_Click);
-            // 
-            // toolStrip1
-            // 
-            this.toolStrip1.Dock = System.Windows.Forms.DockStyle.None;
-            this.toolStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.toolStripTextBox1});
-            this.toolStrip1.Location = new System.Drawing.Point(376, 63);
-            this.toolStrip1.Name = "toolStrip1";
-            this.toolStrip1.Size = new System.Drawing.Size(304, 25);
-            this.toolStrip1.TabIndex = 0;
-            this.toolStrip1.Text = "toolStrip1";
-            // 
-            // faderButton2
-            // 
-            this.faderButton2.BackColor = System.Drawing.Color.Transparent;
-            this.faderButton2.Location = new System.Drawing.Point(238, 91);
-            this.faderButton2.Name = "faderButton2";
-            this.faderButton2.Size = new System.Drawing.Size(124, 35);
-            this.faderButton2.TabIndex = 1;
-            this.faderButton2.Text = "Add Boomark";
-            this.faderButton2.Click += new System.EventHandler(this.faderButton2_Click);
-            // 
-            // faderButton3
-            // 
-            this.faderButton3.BackColor = System.Drawing.Color.Transparent;
-            this.faderButton3.Location = new System.Drawing.Point(685, 91);
-            this.faderButton3.Name = "faderButton3";
-            this.faderButton3.Size = new System.Drawing.Size(145, 35);
-            this.faderButton3.TabIndex = 2;
-            this.faderButton3.Text = "Remove Bookmark";
-            this.faderButton3.Click += new System.EventHandler(this.faderButton3_Click);
-            // 
-            // toolStripTextBox1
-            // 
-            this.toolStripTextBox1.Name = "toolStripTextBox1";
-            this.toolStripTextBox1.Size = new System.Drawing.Size(290, 25);
-            // 
-            // listView1
-            // 
-            this.listView1.FullRowSelect = true;
-            this.listView1.GridLines = true;
-            this.listView1.Location = new System.Drawing.Point(238, 132);
-            this.listView1.MultiSelect = false;
-            this.listView1.Name = "listView1";
-            this.listView1.Size = new System.Drawing.Size(592, 511);
-            this.listView1.TabIndex = 3;
-            this.listView1.UseCompatibleStateImageBehavior = false;
-            this.listView1.View = System.Windows.Forms.View.List;
-            // 
-            // label4
-            // 
-            this.label4.AutoSize = true;
-            this.label4.Font = new System.Drawing.Font("Bookman Old Style", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label4.ForeColor = System.Drawing.Color.Lime;
-            this.label4.Location = new System.Drawing.Point(68, 67);
-            this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(307, 19);
-            this.label4.TabIndex = 4;
-            this.label4.Text = "Enter Link You Want To Bookmark:";
-            // 
-            // pictureBox3
-            // 
-            this.pictureBox3.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.pictureBox3.Image = global::C_Sharp_Browser.Properties.Resources.imageedit_6_5075381405;
-            this.pictureBox3.Location = new System.Drawing.Point(163, 0);
-            this.pictureBox3.Name = "pictureBox3";
-            this.pictureBox3.Size = new System.Drawing.Size(56, 40);
-            this.pictureBox3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox3.TabIndex = 6;
-            this.pictureBox3.TabStop = false;
-            this.pictureBox3.Click += new System.EventHandler(this.pictureBox3_Click);
-            // 
-            // pictureBox2
-            // 
-            this.pictureBox2.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.pictureBox2.Image = global::C_Sharp_Browser.Properties.Resources.imageedit_3_9787858024;
-            this.pictureBox2.Location = new System.Drawing.Point(990, 5);
-            this.pictureBox2.Name = "pictureBox2";
-            this.pictureBox2.Size = new System.Drawing.Size(35, 31);
-            this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox2.TabIndex = 5;
-            this.pictureBox2.TabStop = false;
-            this.pictureBox2.Click += new System.EventHandler(this.pictureBox2_Click);
-            // 
-            // pictureBox1
-            // 
-            this.pictureBox1.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.pictureBox1.Image = global::C_Sharp_Browser.Properties.Resources.imageedit_1_9972363874;
-            this.pictureBox1.Location = new System.Drawing.Point(937, 6);
-            this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(50, 30);
-            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox1.TabIndex = 4;
-            this.pictureBox1.TabStop = false;
-            this.pictureBox1.Click += new System.EventHandler(this.pictureBox1_Click);
-            // 
-            // button1
-            // 
-            this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button1.ForeColor = System.Drawing.Color.Yellow;
-            this.button1.Location = new System.Drawing.Point(35, 10);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(88, 23);
-            this.button1.TabIndex = 7;
-            this.button1.Text = "Add Bookmark";
-            this.button1.UseVisualStyleBackColor = true;
-            this.button1.Click += new System.EventHandler(this.button1_Click_1);
-            // 
-            // faderTextBox2
-            // 
-            this.faderTextBox2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(61)))), ((int)(((byte)(61)))), ((int)(((byte)(61)))));
-            this.faderTextBox2.Font = new System.Drawing.Font("Segoe UI", 11F, System.Drawing.FontStyle.Bold);
-            this.faderTextBox2.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(245)))), ((int)(((byte)(245)))), ((int)(((byte)(245)))));
-            this.faderTextBox2.Location = new System.Drawing.Point(461, 96);
-            this.faderTextBox2.MaxLength = 32767;
-            this.faderTextBox2.MultiLine = false;
-            this.faderTextBox2.Name = "faderTextBox2";
-            this.faderTextBox2.ReadOnly = false;
-            this.faderTextBox2.Size = new System.Drawing.Size(129, 30);
-            this.faderTextBox2.TabIndex = 5;
-            this.faderTextBox2.Text = "Load Bookmark";
-            this.faderTextBox2.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
-            this.faderTextBox2.UseSystemPasswordChar = false;
-            this.faderTextBox2.Click += new System.EventHandler(this.faderTextBox2_Click);
-            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -396,6 +397,8 @@
             this.ClientSize = new System.Drawing.Size(1170, 761);
             this.Controls.Add(this.faderTheme1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
+            this.MaximizeBox = false;
+            this.MaximumSize = new System.Drawing.Size(1170, 761);
             this.Name = "Form1";
             this.ShowIcon = false;
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
@@ -404,17 +407,17 @@
             this.faderTheme1.ResumeLayout(false);
             this.faderVerticalTabControl1.ResumeLayout(false);
             this.tabPage1.ResumeLayout(false);
-            this.tabPage3.ResumeLayout(false);
-            this.faderPanel1.ResumeLayout(false);
-            this.faderPanel1.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.tabPage2.ResumeLayout(false);
             this.faderTheme2.ResumeLayout(false);
             this.faderTheme2.PerformLayout();
             this.toolStrip1.ResumeLayout(false);
             this.toolStrip1.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
+            this.tabPage3.ResumeLayout(false);
+            this.faderPanel1.ResumeLayout(false);
+            this.faderPanel1.PerformLayout();
             this.ResumeLayout(false);
 
         }
